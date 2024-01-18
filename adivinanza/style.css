@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  input {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #mensaje {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+
+  .pie{
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    bottom:30px;
+    align-items: center;
+    justify-content:  space-evenly;
+  }
+  
+  .pie img{
+    width: 40px;
+    margin-right: 20px;
+  }
+  
+  .pie img:hover{
+    transform: scale(1.4);
+    transition: all .6s;
+  }
